@@ -28,7 +28,6 @@ addTaskBtn.addEventListener("click", ()=> {
         });
     });
 
-
     removeBtns = document.querySelectorAll(".rm-btn");
     removeBtns.forEach(removeBtn => {
         removeBtn.addEventListener("click", (e)=> {

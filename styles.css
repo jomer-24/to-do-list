@@ -105,7 +105,6 @@
 
 .container .card .card-body .rm-btn{
     position: absolute;
-    margin-right: 10px;
     font-size: 18px;
     background-color: transparent;
     border: none;
@@ -119,4 +118,32 @@
 
 .container .card .card-body .rm-btn:hover{
     background-color: red;
+}
+
+
+@media (max-width: 500px){
+    .max-width{
+        padding: 0 20px;
+    }
+
+    .container .add-list .inpt{
+        width: 75%;
+    }
+
+    .container .card .card-body .btns{
+        font-size: 14px;
+        padding: 3px 6px;
+        margin-right: 2px;
+    }
+
+    .container .card .card-body .list .list-content{
+        font-size: 18px;
+        overflow: hidden;
+    }
+
+    .container .card .card-body .rm-btn{
+        font-size: 14px;
+        padding: 3px 6px;
+    }
+
 }
